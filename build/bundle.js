@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(o){throw new TypeError('"a" is read-only')}();console.log(function(o,e){return o+" and "+e}("hie","byee")),console.log("Goodbye from app.js"),console.log("How are you doing? from app.js"),console.log("Hello World!!"),console.log("Howdy?")})();

@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("hie"+" and "+"byee"),console.log("How are you doing? from app.js"),console.log("Hello World!!"),console.log("Howdy?")})();
