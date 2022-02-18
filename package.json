@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "ani": "webpack serve --open",
     "lint": "eslint ./src",
-    "lint:fix":"eslint ./src --fix",
+    "lint:fix": "eslint ./src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,7 @@
   "homepage": "https://github.com/mannuraniruddha/javascript#readme",
   "devDependencies": {
     "@babel/core": "^7.17.4",
+    "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.3",
     "eslint": "^8.9.0",
@@ -34,7 +36,10 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.5.1",
     "webpack": "^5.69.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   }
 }
